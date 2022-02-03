@@ -3,3 +3,15 @@ test_repo
 	github 토큰을 테스트하기 위한 리포
 	실제 내용은 없음
 
+
+$ cd test_repo
+$ git init
+
+$ git remote -v
+$ git remote add origin https://github.com/longfoo/test_repo.git
+
+$ git add .
+$ got commit -m "first commit"
+
+$ git push -u origin master
+
